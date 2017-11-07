@@ -52,8 +52,8 @@ h1 {
 
 .formBox {
 	visibility: hidden;
-	height: 380px;
-	width: 380px;
+	height: 360px;
+	width: 360px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -63,7 +63,7 @@ h1 {
 }
 
 .exitOut {
-	margin-left: 360px;
+	margin-left: 330px;
 }
 
 h3 {
@@ -90,8 +90,10 @@ button {
 
 
 @media screen and (min-width: 780px) {
-.container p {	
+	.container p {	
 		width: 150px;
 		height: 150px;
 		line-height: 150px;
+	}
+
 }
